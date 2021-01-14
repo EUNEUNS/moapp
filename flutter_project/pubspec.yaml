@@ -1,0 +1,37 @@
+name: Shrine
+description: Learn how to use Material for structure and layout.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: "^0.5.0+1"
+  firebase_auth: "^0.18.1+2"
+  cloud_firestore: "^0.14.3"
+  firebase_storage: "^5.0.1"
+  google_sign_in: "^4.5.1"
+  cupertino_icons: ^0.1.0
+  shrine_images: 1.1.1
+  flutter_screenutil: ^3.1.0
+  hexcolor: ^1.0.6
+  provider: ^4.3.2
+  image_picker: ^0.6.7+14
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  # TODO: Insert Fonts (103)
+  uses-material-design: true
+  assets:
+    - doctor.png
+    - tea.png
+    - family: NotoSans
+      font:
+        - asset: NotoSans-hinted/NotoSans-Black.ttf
+        - asset: NotoSans-Bold.ttf
+          weight: 200

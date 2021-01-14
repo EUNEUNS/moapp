@@ -1,0 +1,29 @@
+name: Shrine
+description: Learn the basics of using Material Components by building a simple app with core components.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.15.6
+  cupertino_icons: ^0.1.0
+  webview_flutter: ^1.0.1
+  carousel_slider: ^2.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  # TODO: Insert Fonts (103)
+  uses-material-design: true
+  assets:
+    - assets/hotel1.jpeg
+    - assets/hotel2.jpeg
+    - assets/hotel3.jpeg
+    - assets/hotel4.jpeg
+    - assets/hotel5.jpeg
+    - assets/hotel6.jpeg
+    - assets/diamond.png
